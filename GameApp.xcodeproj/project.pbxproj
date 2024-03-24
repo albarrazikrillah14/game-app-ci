@@ -46,7 +46,8 @@
 		AD8FF8AE2BABB68300862CDF /* CachedAsyncImage in Frameworks */ = {isa = PBXBuildFile; productRef = AD8FF8AD2BABB68300862CDF /* CachedAsyncImage */; };
 		AD8FF8B12BABB6C700862CDF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AD8FF8B02BABB6C700862CDF /* Realm */; };
 		AD8FF8B32BABB6C700862CDF /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD8FF8B22BABB6C700862CDF /* RealmSwift */; };
-		AD9835A02BB02321006F201C /* GameApp.app in Resources */ = {isa = PBXBuildFile; fileRef = A82A808D2B04714A00540426 /* GameApp.app */; };
+		AD9835A52BB026D3006F201C /* GameApp.app in Resources */ = {isa = PBXBuildFile; fileRef = A82A808D2B04714A00540426 /* GameApp.app */; };
+		AD9835A62BB026D3006F201C /* GameApp.app in Resources */ = {isa = PBXBuildFile; fileRef = A82A808D2B04714A00540426 /* GameApp.app */; platformFilter = ios; };
 		ADD5BFDB2BB008EC00A5106E /* GameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5BFDA2BB008EC00A5106E /* GameAppTests.swift */; };
 		ADE578AE2B99381B00782A0D /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE578AD2B99381B00782A0D /* DateFormatter+Ext.swift */; };
 /* End PBXBuildFile section */
@@ -545,7 +546,7 @@
 				A82A80982B04714A00540426 /* Main.storyboard in Resources */,
 				A8975D612B06AA7B002C4FE6 /* GameCell.xib in Resources */,
 				A846CFE52B086AA0001D9397 /* FavoriteCell.xib in Resources */,
-				AD9835A02BB02321006F201C /* GameApp.app in Resources */,
+				AD9835A52BB026D3006F201C /* GameApp.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,6 +554,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD9835A62BB026D3006F201C /* GameApp.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +759,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P732YMD7R8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GameApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -788,6 +791,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P732YMD7R8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "GameApp/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
