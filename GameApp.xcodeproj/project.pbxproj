@@ -47,9 +47,6 @@
 		AD8FF8B12BABB6C700862CDF /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = AD8FF8B02BABB6C700862CDF /* Realm */; };
 		AD8FF8B32BABB6C700862CDF /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = AD8FF8B22BABB6C700862CDF /* RealmSwift */; };
 		AD9835A02BB02321006F201C /* GameApp.app in Resources */ = {isa = PBXBuildFile; fileRef = A82A808D2B04714A00540426 /* GameApp.app */; };
-		AD9835A12BB02326006F201C /* GameAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = ADD5BFD82BB008EC00A5106E /* GameAppTests.xctest */; };
-		AD9835A22BB0242C006F201C /* GameApp.app in Resources */ = {isa = PBXBuildFile; fileRef = A82A808D2B04714A00540426 /* GameApp.app */; platformFilter = ios; };
-		AD9835A32BB02430006F201C /* GameAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = ADD5BFD82BB008EC00A5106E /* GameAppTests.xctest */; };
 		ADD5BFDB2BB008EC00A5106E /* GameAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADD5BFDA2BB008EC00A5106E /* GameAppTests.swift */; };
 		ADE578AE2B99381B00782A0D /* DateFormatter+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE578AD2B99381B00782A0D /* DateFormatter+Ext.swift */; };
 /* End PBXBuildFile section */
@@ -548,7 +545,6 @@
 				A82A80982B04714A00540426 /* Main.storyboard in Resources */,
 				A8975D612B06AA7B002C4FE6 /* GameCell.xib in Resources */,
 				A846CFE52B086AA0001D9397 /* FavoriteCell.xib in Resources */,
-				AD9835A32BB02430006F201C /* GameAppTests.xctest in Resources */,
 				AD9835A02BB02321006F201C /* GameApp.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -557,8 +553,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD9835A12BB02326006F201C /* GameAppTests.xctest in Resources */,
-				AD9835A22BB0242C006F201C /* GameApp.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
