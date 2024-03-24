@@ -24,8 +24,6 @@
 		A8975D6B2B06BC89002C4FE6 /* ApiCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975D6A2B06BC89002C4FE6 /* ApiCall.swift */; };
 		A8975D6E2B06C1BC002C4FE6 /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975D6D2B06C1BC002C4FE6 /* GameResponse.swift */; };
 		A8975D702B06C216002C4FE6 /* GameDetailResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8975D6F2B06C216002C4FE6 /* GameDetailResponse.swift */; };
-		AD6DC9A12BB01AF70054142A /* GameApp.app in Resources */ = {isa = PBXBuildFile; fileRef = A82A808D2B04714A00540426 /* GameApp.app */; };
-		AD6DC9A42BB01B250054142A /* GameAppTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = ADD5BFD82BB008EC00A5106E /* GameAppTests.xctest */; };
 		AD736BB02BAF7694000621D3 /* Game in Frameworks */ = {isa = PBXBuildFile; productRef = AD736BAF2BAF7694000621D3 /* Game */; };
 		AD7C663F2B432EC8007F4BB1 /* GameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7C663E2B432EC8007F4BB1 /* GameRepository.swift */; };
 		AD7C66462B432F07007F4BB1 /* RemoteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7C66452B432F07007F4BB1 /* RemoteDataSource.swift */; };
@@ -546,7 +544,6 @@
 				A82A80982B04714A00540426 /* Main.storyboard in Resources */,
 				A8975D612B06AA7B002C4FE6 /* GameCell.xib in Resources */,
 				A846CFE52B086AA0001D9397 /* FavoriteCell.xib in Resources */,
-				AD6DC9A12BB01AF70054142A /* GameApp.app in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,7 +551,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD6DC9A42BB01B250054142A /* GameAppTests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
